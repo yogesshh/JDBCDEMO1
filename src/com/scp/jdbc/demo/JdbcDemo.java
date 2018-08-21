@@ -19,7 +19,7 @@ public class JdbcDemo {
        java.sql.Statement st=  con.createStatement();
        ResultSet rs= st.executeQuery("select * from MyStudentTable");
       
-      // System.out.println( rs.next());
+      System.out.println( "Result");
        
        
    	while(rs.next())
