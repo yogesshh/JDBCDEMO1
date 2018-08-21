@@ -20,7 +20,7 @@ public class JdbcDemo {
        ResultSet rs= st.executeQuery("select * from MyStudentTable");
       
       System.out.println( "Result");
-       
+       System.out.println();
        
    	while(rs.next())
 	{
